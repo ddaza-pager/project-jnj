@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: aquamarine;
+  height: 20vh;
+}
+
+main {
+  height: 70vh;
+  display: flex;
+}
+
+aside {
+  background-color: purple;
+  flex: 1;
+}
+
+content {
+  background-color: seashell;
+  flex: 3;
+}
+
+footer {
+  background-color: tomato;
+  height: 10vh;
+}

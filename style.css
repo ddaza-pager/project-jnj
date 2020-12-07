@@ -5,6 +5,7 @@ body {
 header {
   background-color: aquamarine;
   height: 20vh;
+  display: flex;
 }
 
 main {
@@ -25,4 +26,26 @@ content {
 footer {
   background-color: tomato;
   height: 10vh;
+}
+
+#logo {
+  background-color: skyblue;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img {
+  width: 128px;
+  height: 128px;
+}
+
+#logo .title {
+  padding-left: 10px;
+}
+
+.menu {
+  background-color: wheat;
+  flex: 3;
 }

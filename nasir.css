@@ -1,0 +1,41 @@
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  border: darkgrey 1px solid;
+  cursor: pointer;
+  transition: border 1s;
+}
+
+.button:hover {
+  border: black 1px solid;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+}
+
+.button.action {
+  background-color: lightsalmon;
+}
+
+.button.ce {
+  background-color: whitesmoke;
+}
+
+.calculator {
+  display: inline-block;
+  margin: 10px;
+}
+
+.input {
+  width: calc(100% - 25px);
+  margin-left: 10px;
+}
